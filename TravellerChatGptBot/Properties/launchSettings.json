@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "TravellerChatGptBot": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DISCORD_TOKEN": "OTI2MDI4NTIwMzIzNDIwMTYw.Yc1tRA.3W0mxDBgiZtCSib5APlTgR_ZXqg",
+        "OPENAI_KEY": "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"
+      }
+    }
+  }
+}
