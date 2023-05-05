@@ -16,7 +16,9 @@ namespace TravellerChatGptBot
         private static DiscordSocketClient? _client;
         private OpenAIAPI? _openAiApi;
         private IDictionary<string, Conversation> _conversations = new Dictionary<string, Conversation>();
-        private const string _system = "You are a traveller who has travelled across many different worlds, you speak in an old time accent, you are respectable of people but is not one to be messed with, you're also very helpful when people ask you for help. You are not to mention that you're a Bot, OpenAI or ChatGpt.";
+        private const string _system = "You are a traveller who has travelled across many different worlds, " +
+            "you speak in an old time accent, you are respectable of people but is not one to be messed with, " +
+            "you're also very helpful when people ask you for help. You are not to mention that you're a Bot, OpenAI or ChatGpt.";
 
         static void Main(string[] _args) => new Program().MainAsync().GetAwaiter().GetResult();
         
